@@ -1,0 +1,196 @@
+body {
+  font-family: 'Abel', sans-serif;
+  font-weight: bold;
+  }
+
+h1 {
+  color: #ffe818;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
+  font-family:'Bangers', cursive;
+  padding:0px 0px 10px 0px;
+}
+
+h5 {
+  font-family:'Indie Flower', cursive;
+    padding:20px 0 10px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.contact{
+  text-align: right;
+  font-size: 13px;
+  color: #e5e5e5;
+  padding-top: 10px;
+  position: relative;
+  animation: mymove 3s;
+  animation-timing-function: ease;
+}
+
+@keyframes mymove {
+  from {left: -200px;}
+  to {left: 0px;}
+}
+
+.codelink{
+  text-decoration: underline;
+  color: #e5e5e5;
+}
+.codelink:hover{
+  font-weight:bold;
+  color: #ffe818;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.weather-app {
+  padding: 30px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+
+.main{
+  padding: 20px;
+}
+
+.update{
+  color: #e5e5e5;
+  font-size:15px;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: #ffe818;
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 25px;
+  top: -34px;
+  color:#ffe818;
+}
+
+.weather-temperature .active {
+  color: #ffe818;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.mylink{
+  color: black;
+  text-decoration: underline;
+}
+
+.mylink:hover{
+  color: #ffe818;
+  text-decoration: underline;
+}
+
+.form-control {
+  border-color: #e5e5e5;
+}
+
+.btn{
+  background-color:#ffe818;
+  border: #ffe818;
+  color:black;
+}
+
+.btn:hover{
+  background-color:#e5e5e5;
+  border: #e5e5e5;
+  color:black;
+}
+
+.weather-forecast {
+   text-decoration:center;
+  padding-top: 20px;
+}
+
+.weather-forecast-date{
+  font-size:16px;
+  color:black; 
+  text-align: center;
+}
+
+.weather-forecast-temperature{
+  text-align: center;
+}
+.weather-forecast-min{
+font-size:16px;
+}
+
+.weather-forecast-min{
+  color:#e5e5e5;
+  font-size:13px;
+}
+
+.forecast-icon{
+display:block;
+margin: 0 auto;
+}
+
+.rotate{
+  animation: rotation 3s infinite linear;
+  width:50px;
+  height:50px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.spin{
+  animation:spin3D 3s infinite linear;
+  position: -200px 100px;
+  width:50px;
+  height:50px;
+
+}
+@keyframes spin3D {
+  from { transform: rotateY(0deg) }
+  to { transform: rotateY(360deg) }
+}
